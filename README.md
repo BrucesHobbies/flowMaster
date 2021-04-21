@@ -84,6 +84,8 @@ From LXTerminal type:
 
     python3 flowMaster.py
 
+# Validation
+To verify that flowMaster was working correctly, I used the city water meter to my house. Since the water filter runs at unpredictable times, I set up a USB webcam above my city water meter to take a time lapse series of photos of the water meter using the script camera.sh which was called from crontab every 5 minutes. The water meter was in close agreement with the flow meter. This was multiple comparisons but not at wide range of flow rates, nor did I sample a statistically large number of units. I was pleased with the results that the flow meter more than met my expectations.
 
 # Plotting the Log File
 flowMaster.csv is the log file for the water quantity consumed and flow rate. Comma Separated Variable (CSV) files that can be plotted in a spreadsheet. 
